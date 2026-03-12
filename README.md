@@ -5,15 +5,18 @@ This project focuses on implementing tokenization techniques and Byte Pair Encod
 
 ## Research Objectives  
 - To analyze different tokenization techniques and their impact on NLP models.  
-- To implement and compare Byte Pair Encoding with traditional methods.  
-- To create a robust dataset for training and evaluating tokenization techniques.
+- To implement and compare Byte Pair Encoding with traditional methods.
+- To compute BPE Compression Ratios
+- To compare with GPT Tokenization Methods
+- To explore effect of Final Vocabulary Size on Compression Ratio
+- To explore effect of File Size on BPE Compression Ratios
 
 ## Tech Stack  
 - Python  
 - NumPy  
-- TensorFlow/Keras  
+- Tiktoken 
 - Pandas  
 - Matplotlib  
 
 ## Dataset Information  
-The dataset used for this project consists of diverse text samples collected from various sources, including books, articles, and websites, to ensure a comprehensive evaluation of the tokenization methods.
+The dataset used for this project consists of Shakespeare Data in English, German, Spanish, and French. to ensure a comprehensive evaluation of the tokenization methods.
